@@ -78,12 +78,11 @@ ol {
   list-style-position: outside;
 }
 
-li {
+.wrapper li {
   padding-left: 5px;
   margin-bottom: 6px;
   line-height: 1.5;
 }
-
 /* Wrapper */
 .wrapper {
   max-width: 1200px;
@@ -160,7 +159,7 @@ div.desc {
   text-align: center;
 }
 
-/* Scroll-to-Top Button (CSS Onlyâ€”no JavaScript functionality) */
+/* Scroll-to-Top Button (CSS Only no JavaScript functionality) */
 #myBtn {
   display: none;
   position: fixed;
@@ -217,28 +216,3 @@ footer {
   width: 100%;
 }
 
-/* Final list alignment correction */
-.wrapper ul,
-.wrapper ol {
-  display: table;
-  width: fit-content;
-  margin: 10px auto 20px;
-  padding-left: 30px;
-  text-align: left;
-}
-
-.wrapper ul {
-  list-style-type: disc;
-  list-style-position: outside;
-}
-
-.wrapper ol {
-  list-style-type: upper-roman;
-  list-style-position: outside;
-}
-
-.wrapper li {
-  text-align: left;
-  margin-bottom: 6px;
-  line-height: 1.5;
-}
