@@ -1,0 +1,206 @@
+/* mystyle.css */
+
+/* Nav links styles */
+a.normal:link {
+  color: #0000FF;
+}
+a.normal:visited {
+  color: #004466;
+}
+a.normal:active {
+  color: #56A5EC;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #006699;
+  overflow: hidden;
+  text-align: center;
+}
+.navbar a {
+  display: inline-block;
+  color: #ffffff;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #488AC7;
+}
+.navbar ul {
+  background-color: #040133;
+  display: inline-flex;
+  width: 100%;
+}
+.nav-button img {
+  height: 100px;
+  width: auto;
+  max-width: 100%;
+}
+
+/* Header, Nav, Footer */
+body {
+  font-family: Verdana, Arial, sans-serif;
+  background-color: #ababac;
+  color: #232554;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header, nav, footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #004466;
+  color: #fff;
+}
+h1, h2, p {
+  text-align: center;
+  margin: 20px 0;
+}
+em, h3, h5 {
+  color: red;
+}
+
+/* List Styles */
+ul, ol {
+  margin: 0;
+  padding: 10;
+}
+ul {
+  list-style-type: none;
+}
+ol {
+  list-style-type: upper-roman;
+}
+
+/* Wrapper */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.58);
+}
+
+/* Main Header */
+.main-header {
+  background-color: #004466;
+  color: white;
+  padding: 40px 20px;
+  font-size: 2em;
+}
+
+/* Hero Image */
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.image-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: copperplate, fantasy;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+}
+.image-button img {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+}
+.image-button:hover {
+  background-color: #218838;
+  transform: scale(1.03);
+}
+
+/* Gallery */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Scroll-to-Top Button (CSS Only—no JavaScript functionality) */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #004466;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  background-color: #555;
+}
+
+/* Tables */
+.deck-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.deck-table, .deck-table th, .deck-table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+table, th, td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #004466;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

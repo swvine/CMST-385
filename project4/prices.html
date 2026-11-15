@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Deck's By Walt</title><!--change title as needed-->
+		<meta charset="UTF-8">
+		<meta name="keywords" content="decks, unqiue, wood, contractor">
+		<meta name="description" content="one of a kind wood decks">
+		<meta name=" Author" content="Shantell Vine">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/mystyle.css">
+		<link rel="stylesheet" href="css/prices.css">
+		
+		</head>
+		<body>
+		<div class="header">
+  			<h1>Deck's by Walt</h1>
+  			<!-- add link for background picture (<img>)-->
+		</div>
+		
+			<nav class="navbar">
+    	<a href="index.html">Home</a>
+    	<a href="about.html">About Us</a>
+    	<a href="gallery.html">Gallery</a>
+    	<a href="styles.html">Styles</a>
+    	<a href="prices.html">Prices</a>
+        <a href="checkout.html">Checkout</a>
+        <a href="contact.html">Contact Us</a>
+			</nav>
+		
+		<h1>Our Prices </h1>
+		<section class="wrapper">
+			<h2>Pricing Table</h2>
+      <table class="deck-table">
+        <thead>
+          <tr>
+            <th>Deck Type</th>
+            <th>Price per sq ft</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Standard Wood</td>
+            <td>$15</td>
+          </tr>
+          <tr>
+            <td>Composite</td>
+            <td>$25</td>
+          </tr>
+          <tr>
+            <td>Custom Designs</td>
+            <td>$30</td>
+          </tr>
+        </tbody>
+      </table>
+	</section>
+			<br>
+			<!-- set up prices page make sure to add in two <strong> tags-->
+<section class="wrapper">
+  <h2>Our Deck Packages</h2>
+  <table class="deck-table">
+    <thead>
+      <tr>
+		  <th><u>Packages</u></th>
+        <th><u>Price</u></th>
+        <th><u>Order</u></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic Deck</td>
+        <td>$5,000</td>
+        <td><a href="checkout.html?package=Basic%20Deck" class="button">Order Basic</a></td>
+      </tr>
+      <tr>
+        <td>Premium Deck</td>
+        <td>$8,500</td>
+        <td><a href="checkout.html?package=Premium%20Deck" class="button">Order Premium</a></td>
+      </tr>
+      <tr>
+        <td>Custom Deck</td>
+        <td>Contact for Quote</td>
+        <td><a href="checkout.html?package=Custom%20Deck" class="button">Order Custom</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+			<p>Prices are <em> subject to change!</em> Due to constant prices changes on supplies.</p><hr>
+
+<h3>50% deposits are required before starting any work.</h3>
+<hr>
+
+<h5>Prices listed on this page are estimates not hard quotes. Final Prices will be discussed during consultation!</h5>
+<hr>
+		<!-- add anchor hyperlink(to jump to top of page)-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+	  
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+		<footer>
+		  <h4>2025 &#169; Deck's by Walt. All Rights Reserved. Terms of Service. Privacy Policy.</h4>
+		</footer> 
+			<!-- all rights-link, Terms- link, privacy-link-->
+			<!--copyrights 2025 Deck's by Walt. All Rights Reserved. Terms of Sservice. Privacy Policy-->
+		 
+	</body>
+</html>	
